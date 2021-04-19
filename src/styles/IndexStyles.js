@@ -6,14 +6,14 @@ const GenereicPara = styled.p`
   letter-spacing: ${props => (props.lessSpacing ? "0.075em" : "0.225em")};
   font-size: ${props => (props.lessSize ? "1.5rem" : "2.5rem")};
   line-height: ${props => (props.lessSize ? "2rem" : "3rem")};
-  color: ${props => (props.grey ? "#c8ece9" : "#ffffff")};
+  color: ${props => (props.grey ? "#c8ece9" : "white")};
 `
 
 const GenericH2 = styled.h2`
   font-size: 3rem;
   padding: ${props => (props.none ? "0" : "1.35em 0")};
   color: ${props => (props.dark ? "#4E4852" : "#ffffff")};
-  border-bottom: ${props => (props.none ? "0" : "2px solid #1d9c91")};
+  border-bottom: ${props => (props.none ? "0" : "2px solid #3d3433")};
   text-transform: uppercase;
   letter-spacing: 0.6rem;
   margin: ${props => (props.some ? "5rem 0 0 0" : "0")};
@@ -43,12 +43,12 @@ const Banner = styled.div`
     display: block;
     height: ${props => (props.parallax ? "80vh" : "100vh")};
     width: 100%;
-    background-image: ${props => (props.different ? "url('developer.jpg')" : "url('banner.jpg')")};
+    background-image: ${props => (props.different ? "url('developer.jpg')" : "url('back.jpg')")};
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
     background-attachment: ${props => (props.parallax ? "fixed" : "scroll")};
-    filter: grayscale(100%) blur(2px);
+    // filter: grayscale(100%) blur(2px);
   }
 `
 
@@ -119,7 +119,7 @@ const MoreText = styled.div`
 `
 
 const SectionTwo = styled.section`
-  background-color: ${props => (props.white ? "#ffffff" : "#21b2a6")};
+  background-color: ${props => (props.white ? "#ffffff" : "#c9c7bb")};
   text-align: center;
   padding: 10rem 0;
   div {
@@ -140,7 +140,7 @@ const SectionTwo = styled.section`
 `
 
 const SectionThree = styled.section`
-  background-color: #2b343d;
+  background-color: #121875;
   color: #ffffff;
 `
 
@@ -162,7 +162,7 @@ const FlexBoxIndex = styled.div`
 `
 
 const SectionFour = styled.section`
-  background-color: #505393;
+  background-color:#e6e5e3;
   color: #ffffff;
   text-align: center;
   .header__section4 {
@@ -271,7 +271,7 @@ const Header = styled.header`
   align-items: center;
   width: 100%;
   height: 30px;
-  background-color: #1d242a;
+  background-color: #ebeddd ;
   color: #ffffff;
   padding: 3rem 0;
   z-index: 1000;

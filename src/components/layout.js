@@ -8,11 +8,11 @@ export default ({ children }) => (
     <div>
         <Header>
             <GenericH2 none>
-                <Link to="/" style={{color: '#fff'}}>GeekyHacker</Link>
+                <Link to="/"><img src="unnamed.png" alt="logo"  style={{width: '130px'}}/></Link>
             </GenericH2>
-            <div className="menu__items">
-                <Link to="/works"><GenereicPara lessSize lessSpacing grey>Works</GenereicPara></Link>
-                <Link to="/about"><GenereicPara lessSize lessSpacing grey>About</GenereicPara></Link>
+            <div className="menu__items"> /works
+                <Link to="#offres" ><GenereicPara lessSize lessSpacing grey style={{color: '#454541'}}>NOS OFFRES</GenereicPara></Link>
+                <Link to="/about" ><GenereicPara lessSize lessSpacing grey style={{color: '#454541'}}>A PROPOS</GenereicPara></Link>
             </div>
         </Header>
         {children}
@@ -26,8 +26,8 @@ export default ({ children }) => (
                 <FontAwesomeIcon icon={faPinterest} size="2x" fixedWidth />
             </div>
             <div class="copyright">
-                <span>&copy; 2019, GeekyHacker | </span>
-                <span>Made with ❤️ and ☕️ in India</span>
+                <span>&copy; 2021, JolofSystem | </span>
+                <span>Made with ❤️ and ☕️ in Casablanca</span>
             </div>
         </Footer>
     </div>
