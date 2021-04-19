@@ -10,7 +10,7 @@ export default ({ children }) => (
             <GenericH2 none>
                 <Link to="/"><img src="unnamed.png" alt="logo"  style={{width: '130px'}}/></Link>
             </GenericH2>
-            <div className="menu__items"> /works
+            <div className="menu__items"> 
                 <Link to="#offres" ><GenereicPara lessSize lessSpacing grey style={{color: '#454541'}}>NOS OFFRES</GenereicPara></Link>
                 <Link to="/about" ><GenereicPara lessSize lessSpacing grey style={{color: '#454541'}}>A PROPOS</GenereicPara></Link>
             </div>
