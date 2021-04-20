@@ -30,6 +30,5 @@ Click [here](https://github.com/nabendu82/AgencyDemo/archive/master.zip) then do
 > gatsby develop
 ```
 
-This project is deployed in Netlify [here](https://priceless-panini-95d866.netlify.com/).
 
 
