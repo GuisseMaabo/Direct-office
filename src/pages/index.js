@@ -50,7 +50,7 @@ class IndexPage extends Component {
                             <GenereicPara>Est synonyme de Loyauté<br />
                                 Honnêteté et <br />
                                 Professionnalisme!</GenereicPara>
-                            <Link to="/works">Nos Offres</Link>
+                            <Link to="#offres">Nos Offres</Link>
                         </div>
                     </TextWrapper>
                     <MoreText> Voir Plus</MoreText>

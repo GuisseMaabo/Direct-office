@@ -13,7 +13,7 @@ const about = () => {
                     <GenericH3 none> Qui Sommes-nous </GenericH3>
                     <GenereicPara lessSize grey>DIRECT-OFFICE est un groupe expérimenté et passionné  Chaque client avec lequel nous travaillons fait partie de l'équipe. Ensemble, nous relevons les défis et célébrons les victoires.
                     </GenereicPara>
-                    <Link to="/works">Our Work</Link>
+                    <Link to="#offres">Our Work</Link>
                 </div>
             </TextWrapper>
         </section>
